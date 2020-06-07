@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fixação</string>
+    <string name="btnEmail">E-mail</string>
+    <string name="btnLoc">Localização</string>
+    <string name="btnTel">Telefone</string>
+    <string name="Escolha">Escolha a opção que quiser!</string>
+    <string name="btnEnviarmail">Enviar</string>
+    <string name="etAss">Assunto</string>
+    <string name="etEmail">Email</string>
+    <string name="btnChamar">Chamar</string>
+    <string name="etCorpo">Corpo</string>
+</resources>
