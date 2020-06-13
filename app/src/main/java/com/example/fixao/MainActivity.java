@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, Telefone.class);
         startActivity(intent);
     }
+
+    public void Mapa(View view){
+        Intent intent = new Intent(MainActivity.this, Mapa.class);
+        startActivity(intent);
+    }
 }

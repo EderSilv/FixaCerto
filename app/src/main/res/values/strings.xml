@@ -9,4 +9,5 @@
     <string name="etEmail">Email</string>
     <string name="btnChamar">Chamar</string>
     <string name="etCorpo">Corpo</string>
+    <string name="etCorp"></string>
 </resources>

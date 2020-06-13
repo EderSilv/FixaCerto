@@ -17,8 +17,8 @@ public class Telefone extends AppCompatActivity {
 
     public void ligar (View view)
     {
-        Uri uri = Uri.parse("tel:123456789");
-        Intent it = new Intent(Intent.ACTION_DIAL, uri);
-        startActivity(it);
+        Uri uri = Uri.parse("tel: ");
+        Intent intent = new Intent(Intent.ACTION_DIAL, uri);
+        startActivity(intent);
     }
 }

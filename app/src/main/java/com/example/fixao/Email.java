@@ -20,16 +20,15 @@ public class Email extends AppCompatActivity {
 
     public void enviarEmail (View view) throws UnsupportedEncodingException {
         //formata o conteúdo do email
-        String email =
-                "mailto:seuemail@gmail.com" +
-                        "?subject=" + URLEncoder.encode("assunto do email", "utf-8") +
-                        "&body=" + URLEncoder.encode("texto do email", "utf-8");
+        String email = "mailto:seuemail@gmail.com" +
+                "?subject=" + URLEncoder.encode("assunto do email", "utf-8") +
+                "&body=" + URLEncoder.encode("texto do email", "utf-8");
         Uri enviaremial = Uri.parse(email);
         //inicia a Intent
-        Intent it = new Intent(Intent.ACTION_SENDTO);
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
         //Define o conteúdo
-        it.setData(enviaremial);
+        intent.setData(enviaremial);
         //Inicia a activity para enviar o email
-        startActivity(Intent.createChooser(it, "Enviar Email"));
+        startActivity(Intent.createChooser(intent, "Enviar Email"));
     }
 }
